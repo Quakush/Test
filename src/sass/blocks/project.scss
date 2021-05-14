@@ -1,0 +1,39 @@
+.project {
+  padding-bottom: 40px;
+}
+
+.project h2 {
+  margin-left: 30px;
+}
+
+.project p {
+  margin-left: 30px;
+}
+
+.project__slider {
+  width: 93%;
+}
+
+.project__btn {
+  display: none;
+}
+
+.project__aside {
+  position: relative;
+  width: 93%;
+  margin-left: 7%;
+  margin-top: -40px;
+  padding: 25px 20px;
+  background-color: $background-aside;
+  z-index: 10;
+
+  & p {
+    margin-left: 0;
+  }
+}
+
+.project h3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+}

@@ -1,0 +1,17 @@
+.promo {
+  margin-bottom: 40px;
+}
+
+.promo__image {
+  width: 93%px;
+  margin-left: 7%;
+}
+
+.promo__aside {
+  position: relative;
+  width: 93%;
+  margin-top: -40px;
+  padding: 35px 20px 40px 20px;
+  background-color: $background-aside;
+  z-index: 10;
+}

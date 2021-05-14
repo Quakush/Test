@@ -1,0 +1,53 @@
+.sentence {
+  padding-top: 25px;
+}
+
+.sentence .container {
+  background-image: url("../img/bg3.svg");
+  background-repeat: no-repeat;
+  background-position: -280px bottom;
+}
+
+.sentence h2 {
+  margin-left: 30px;
+  padding-right: 50px;
+}
+
+.sentence__btn {
+  display: none;
+}
+
+.sentence__slider {
+  width: 93%;
+}
+
+.sentence__aside {
+  position: relative;
+  width: 93%;
+  margin-left: 7%;
+  margin-top: -40px;
+  background-color: $background-aside;
+  z-index: 10;
+}
+
+.sentence__list {
+  list-style: none;
+  margin: 0;
+  padding: 30px 20px;
+}
+
+.sentence__item {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 20px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 0;
+    width: 15px;
+    height: 2px;
+    background-color: $title-color;
+  }
+}
