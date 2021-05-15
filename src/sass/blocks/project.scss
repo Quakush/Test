@@ -2,16 +2,24 @@
   padding-bottom: 40px;
 }
 
+.project .container {
+  background-color: transparent;
+}
+
 .project h2 {
   margin-left: 30px;
+  margin-bottom: 12px;
 }
 
 .project p {
+  margin: 0;
   margin-left: 30px;
+  padding-right: 20px;
 }
 
 .project__slider {
   width: 93%;
+  margin-top: 24px;
 }
 
 .project__btn {
@@ -20,12 +28,13 @@
 
 .project__aside {
   position: relative;
+  z-index: 10px;
   width: 93%;
   margin-left: 7%;
-  margin-top: -40px;
-  padding: 25px 20px;
+  margin-top: -30px;
+  margin-bottom: 25px;
+  padding: 23px 10px 23px 20px;
   background-color: $background-aside;
-  z-index: 10;
 
   & p {
     margin-left: 0;
@@ -33,7 +42,11 @@
 }
 
 .project h3 {
+  margin: 0;
+  margin-bottom: 8px;
   font-size: 14px;
   line-height: 20px;
   font-weight: normal;
 }
+
+

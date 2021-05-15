@@ -14,7 +14,7 @@ body {
     line-height: 18px;
     font-weight: normal;
     color: $text-color;
-    background-color: $background-color;
+    background-color: #fff;
 }
 
 img {
@@ -36,8 +36,10 @@ img {
   }
 
   .container {
-      min-width: $mobile-width;
-      margin: 0 auto;
+    min-width: $mobile-width;
+    margin: 0 auto;
+    padding: 0;
+    background-color: $background-color;
   }
 
   a {
@@ -45,22 +47,27 @@ img {
   }
 
   h2 {
+    margin: 0;
     font-size: 24px;
     line-height: 28px;
     font-weight: bold;
     color: $title-color;
   }
 
-  .border__wrapper {
-    background-image: url("../img/bg1.svg");
+  .background__wrapper {
+    min-width: $mobile-width;
+    margin: 0 auto;
+    background-image: url("../img/bg1.png");
+    background-color: $background-color;
     background-repeat: no-repeat;
-    background-position: left 15px bottom;
+    background-position: left 10px bottom;
   }
 
   @media (min-width: $tablet-width) {
 
-    .container {
-      width: $tablet-container;
+    .container,
+    .background__wrapper {
+      max-width: $tablet-container;
     }
 
     h2 {
@@ -70,14 +77,16 @@ img {
   }
 
   @media (min-width: $desktop-width) {
-    .container {
-      width: $desktop-container;
+    .container,
+    .background__wrapper {
+      max-width: $desktop-container;
     }
   }
 
   @media (min-width: $hiscreen-width) {
-    .container {
-      width: $hiscreen-container;
+    .container,
+    .background__wrapper {
+      max-width: $hiscreen-container;
     }
   }
 

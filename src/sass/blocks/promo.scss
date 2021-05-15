@@ -1,17 +1,31 @@
 .promo {
-  margin-bottom: 40px;
+  margin-bottom: 34px;
+}
+
+.promo .container {
+  background-color: transparent;
 }
 
 .promo__image {
-  width: 93%px;
-  margin-left: 7%;
+  width: 93%;
+  margin-left: auto;
 }
 
 .promo__aside {
   position: relative;
-  width: 93%;
-  margin-top: -40px;
-  padding: 35px 20px 40px 20px;
-  background-color: $background-aside;
   z-index: 10;
+  width: 93%;
+  margin-top: -44px;
+  padding: 34px 20px 29px;
+  background-color: $background-aside;
+
+  & h2 {
+    margin-bottom: 12px;
+  }
+
+  & p {
+    margin: 0;
+    margin-bottom: 9px;
+    padding: 0;
+  }
 }

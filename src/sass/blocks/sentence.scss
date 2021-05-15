@@ -1,15 +1,14 @@
-.sentence {
-  padding-top: 25px;
-}
-
 .sentence .container {
+  padding-bottom: 56px;
   background-image: url("../img/bg3.svg");
   background-repeat: no-repeat;
-  background-position: -280px bottom;
+  background-position: -288px bottom;
 }
 
 .sentence h2 {
   margin-left: 30px;
+  margin-bottom: 27px;
+  padding-top: 46px;
   padding-right: 50px;
 }
 
@@ -33,12 +32,12 @@
 .sentence__list {
   list-style: none;
   margin: 0;
-  padding: 30px 20px;
+  padding: 30px 15px 22px 20px;
 }
 
 .sentence__item {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   padding-left: 20px;
 
   &::before {
@@ -50,4 +49,8 @@
     height: 2px;
     background-color: $title-color;
   }
+}
+
+.sentence .slick-dots {
+  bottom: 49px
 }

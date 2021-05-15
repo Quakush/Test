@@ -1,25 +1,24 @@
-.now {
-  padding-bottom: 20px;
-}
-
 .now .container {
   background-image: url("../img/bg2.svg");
   background-repeat: no-repeat;
-  background-position: -280px bottom;
+  background-position: -288px 372px;
 }
 
 .now h2 {
-  margin-left: 20px;
+  margin-left: 18px;
+  margin-bottom: 13px;
+  padding-top: 36px;
 }
 
 .now__wrapper {
   display: flex;
-  padding-bottom: 45px;
+  padding-bottom: 42px;
 
   & p {
     flex-basis: 50%;
     margin: 0;
     padding-left: 20px;
+    padding-right: 10px;
   }
 }
 
@@ -39,6 +38,7 @@
   }
 
   & td {
+    padding-right: 5px;
     text-align: left;
   }
 
@@ -56,7 +56,7 @@
 .now__aside {
   position: relative;
   width: 93%;
-  margin-bottom: -40px;
+  margin-bottom: -30px;
   background-color: $background-aside;
   z-index: 10;
 }
@@ -64,12 +64,12 @@
 .now__list {
   list-style: none;
   margin: 0;
-  padding: 30px 20px;
+  padding: 25px 20px 19px;
 }
 
 .now__item {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   padding-left: 20px;
 
   &::before {
@@ -81,4 +81,9 @@
     height: 2px;
     background-color: $title-color;
   }
+}
+
+.now__image {
+  width: 93%;
+  margin-left: auto;
 }
